@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #e9ecef; /* Light background color */
+    background-color: #e9ecef; 
 }
 
 header {
@@ -13,10 +13,10 @@ header {
 }
 
 .banner {
-    background-image: url('Untitled.jpg'); /* Set your banner image here */
-    background-size: cover; /* Cover the entire header */
-    background-position: center; /* Center the image */
-    padding: 100px 0; /* Add padding for spacing */
+    background-image: url('Untitled.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    padding: 100px 0; 
 }
 
 .banner::before {
@@ -26,20 +26,20 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0); /* Black overlay with 50% opacity */
-    z-index: 1; /* Place the overlay below the text */
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 1; 
 }
 
 h1 {
-    position: relative; /* Position the header text above the overlay */
-    z-index: 2; /* Ensure the text is above the overlay */
-    font-size: 3em; /* Increase font size */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+    position: relative; 
+    z-index: 2; 
+    font-size: 3em; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
 }
 
 nav {
-    position: relative; /* Position the navigation above the overlay */
-    z-index: 2; /* Ensure the navigation is above the overlay */
+    position: relative; 
+    z-index: 2;
 }
 
 nav ul {
@@ -59,73 +59,72 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffdd57; /* Change color on hover */
+    color: #ffdd57; 
 }
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 20px; /* Spacing between skill items */
+    gap: 20px;
 }
 
 .skill {
-    background: #ffffff; /* White background for skill items */
-    border-radius: 8px;
+    background: #ffffff; 
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .skill img {
-    width: 50px; /* Set icon size */
+    width: 50px; 
     height: 50px;
 }
 
 .skill:hover {
-    transform: translateY(-5px); /* Slightly lift on hover */
+    transform: translateY(-5px); 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .projects-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Space between cards */
+    justify-content: space-between; 
     gap: 20px;
 }
 
 .project-card {
-    background: #ffffff; /* White background for project cards */
+    background: #ffffff; 
     border-radius: 8px;
     padding: 20px;
-    width: calc(50% - 20px); /* Adjust width as needed */
+    width: calc(50% - 20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+    transition: transform 0.3s, box-shadow 0.3s; 
 }
 
 .project-card img {
-    width: 100%; /* Make image responsive */
+    width: 100%; 
     border-radius: 8px;
 }
 
 .project-card:hover {
-    transform: translateY(-5px); /* Slightly lift on hover */
+    transform: translateY(-5px); 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 section {
     padding: 20px;
     margin: 20px;
-    background: #ffffff; /* White background for sections */
+    background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #6a11cb; /* Color for section headings */
+    color: #6a11cb; 
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
     color: #ffffff;
     position: relative;
     bottom: 0;
